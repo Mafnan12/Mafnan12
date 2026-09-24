@@ -1,16 +1,39 @@
-## Hi there 👋
+# Muhammad Afnan
 
-<!--
-**Mafnan12/Mafnan12** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> AI Engineer building intelligent systems and agentic applications.
 
-Here are some ideas to get you started:
+[www.linkedin.com/in/mafnan1]    [ afnanazizktk5276@gmail.com ]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## What I'm Building
+
+**RootCauseForge**
+Agentic AI for production incident investigation.
+
+**PricePulsePK**
+AI-powered commodity forecasting and insights for Pakistan.
+
+---
+
+## Engineering Focus
+
+AI Systems · Agentic AI · RAG · Machine Learning · Backend · Data
+
+---
+
+## Selected Work
+
+<!-- projects will go here -->
+
+---
+
+## Currently Exploring
+
+LLM Systems · AI Agents · RAG Architecture · AI Infrastructure
+
+---
+
+## Let's Connect
+
+Open to AI engineering opportunities, interesting problems, and collaborations.
