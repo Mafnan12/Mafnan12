@@ -1,6 +1,6 @@
 # Hi, I'm Muhammad Afnan
 
-**AI Engineer** building agentic and LLM-powered systems, from data pipelines and retrieval to APIs, evaluation, and deployment.
+**AI Engineer** building LLM applications, RAG pipelines, multi-agent systems, and computer vision solutions, along with the data pipelines, APIs, and deployment around them.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mafnan1-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mafnan1)
 [![Email](https://img.shields.io/badge/Email-Get_in_touch-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:afnanazizktk5276@gmail.com)
@@ -9,33 +9,39 @@
 
 Most AI projects stop at a notebook. I focus on what comes after: how data flows in, how the model retrieves context and uses tools, how outputs are evaluated, and where the system breaks, so it becomes reliable enough to actually use.
 
+💼 **AI Engineer at MAAKWEB** (part-time, remote), building LLM-powered chatbots and integrating LLMs into production web applications for client end users.
+🎓 **BS Artificial Intelligence**, FAST-NUCES (2022–2026)
+
 ---
 
 ## Featured Projects
 
-### 🔎 [RootCauseForge](https://github.com/Mafnan12/rootcauseforge)
-**Agentic incident investigation for microservices**
+### ⚽ [FootballVision](https://github.com/Mafnan12/FootballVision)
+**AI biomechanical coaching system · Final Year Project**
 
-Simulates production failures across a microservice environment and uses LLM agents to investigate them and trace the root cause. Service dependencies are modeled as a graph in Neo4j, so agents can reason about how a failure in one service spreads to others.
+Analyzes a player's kicking technique from video and gives personalized coaching feedback. Computer vision extracts body movement, the motion is compared against reference technique, and a team of AI agents turns the analysis into coaching advice.
 
-- Fault injection to generate realistic incidents across services
-- Agents that query logs, metrics, and the dependency graph to form and test hypotheses
-- Produces a structured root-cause report for each incident
-<!-- Add one concrete result if you have it, e.g. "Correctly identified the root cause in X of Y simulated incidents" -->
+- Computer vision pipeline using **YOLOv8** object detection and **MediaPipe** pose estimation for kick analysis
+- **Dynamic Time Warping (DTW)** compares movement sequences against reference actions to produce similarity scores
+- **LangGraph** multi-agent coaching workflow with PostgreSQL-backed memory, served through **FastAPI** and containerized with **Docker**
 
-`Python` `LLM Agents` `Neo4j` `Observability`
+`Python` `YOLOv8` `MediaPipe` `LangGraph` `FastAPI` `PostgreSQL` `Docker`
+
+### 🤖 [Conversational AI Customer Support Agent](https://github.com/Mafnan12/customer-support-agent)
+**Multi-agent assistant that resolves support queries and processes refunds**
+
+- Retrieval pipeline with embeddings and **ChromaDB** semantic search over documentation, plus conversational memory for context-aware answers
+- Evaluated responses for relevance and accuracy, then refined chunking, retrieval, and prompts to reduce incorrect answers
+
+`Python` `LangChain` `GPT-4` `ChromaDB` `RAG`
 
 ### 📈 [PricePulsePK](https://github.com/Mafnan12/PricePulsePK)
-**Commodity price intelligence for Pakistan**
+**Commodity price forecasting for Pakistan**
 
-An end-to-end data and ML platform that collects commodity prices, forecasts trends, and answers questions about the market using retrieval over structured data and external sources.
+- Automated pipelines to scrape, clean, and structure commodity pricing data
+- Trained and compared **XGBoost** and **Random Forest** forecasting models to select the best-performing approach
 
-- Automated data collection pipeline for commodity prices
-- Time-series forecasting models for price trends
-- RAG layer for natural-language insights, served through FastAPI with a Streamlit dashboard
-<!-- Add: number of commodities/cities tracked, forecast accuracy (e.g. MAPE), or a live demo link -->
-
-`Python` `Time Series` `RAG` `FastAPI` `Streamlit`
+`Python` `Pandas` `XGBoost` `Scikit-learn`
 
 ---
 
@@ -43,17 +49,18 @@ An end-to-end data and ML platform that collects commodity prices, forecasts tre
 
 | Area | Tools |
 |---|---|
-| **AI / ML** | Machine Learning · LLMs · RAG · Agentic AI · Embeddings |
-| **Frameworks** | LangChain · FastAPI · Streamlit |
-| **Data** | SQL · Neo4j · Vector Databases |
-| **Engineering** | Python · Docker · REST APIs |
+| **LLMs & Agents** | OpenAI / Claude / Gemini APIs · LangChain · LangGraph · LlamaIndex · CrewAI · Prompt Engineering |
+| **Retrieval** | RAG · Embeddings · ChromaDB · FAISS · Pinecone · Qdrant |
+| **ML & Vision** | PyTorch · HuggingFace · Scikit-learn · XGBoost · YOLOv8 · OpenCV · MediaPipe |
+| **Engineering** | Python · FastAPI · PostgreSQL · Docker · Git · GitHub Actions · Linux |
+| **Automation** | n8n · Webhooks · REST APIs |
 
 ---
 
-## Currently Focused On
+## Currently Building
 
-Building **reliable agentic systems**: better tool orchestration, evaluation methods for RAG and agents, and observability for AI applications in production.
+🔧 **RootCauseForge** *(in progress)*: an agentic system that simulates production incidents in a microservice environment and uses LLM agents to trace failures to their root cause.
 
 ---
 
-📫 Open to **AI engineering roles** and interesting technical problems. The best way to reach me is [LinkedIn](https://www.linkedin.com/in/mafnan1) or [email](mailto:afnanazizktk5276@gmail.com).
+📫 Open to **remote AI Engineer, ML Engineer, and LLM Engineer roles**. The best way to reach me is [LinkedIn](https://www.linkedin.com/in/mafnan1) or [email](mailto:afnanazizktk5276@gmail.com).
