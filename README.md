@@ -1,88 +1,59 @@
-# Muhammad Afnan
+# Hi, I'm Muhammad Afnan
 
-### AI Engineer · Intelligent Systems · Agentic AI
+**AI Engineer** building agentic and LLM-powered systems, from data pipelines and retrieval to APIs, evaluation, and deployment.
 
-I build practical AI systems that combine **machine learning, LLMs, data, and backend engineering** to solve real-world problems.
-
-[LinkedIn](www.linkedin.com/in/mafnan1)  · [Email](afnanazizktk5276@gmail.com)
-
----
-
-## What I Build
-
-```text
-AI Systems
-├── Agentic AI
-├── LLM Applications
-├── RAG Systems
-├── Machine Learning
-├── Data Pipelines
-└── AI APIs & Backend
-```
-
-I’m particularly interested in turning AI models into usable systems — with data pipelines, retrieval, tools, APIs, evaluation, and deployment around the model.
-
----
-
-## Selected Systems
-
-### RootCauseForge
-
-**Agentic Production Incident Investigation**
-
-An experimental AI system that simulates production incidents and uses agents to investigate failures across a microservice environment.
-
-`Python` `LLMs` `Agents` `Neo4j` `Observability`
-
-→ [View Repository](https://github.com/Mafnan12/rootcauseforge)
-
----
-
-### PricePulsePK
-
-**AI-Powered Commodity Intelligence for Pakistan**
-
-A data and ML platform for collecting commodity prices, forecasting trends, and generating insights from structured data and external information.
-
-`Python` `ML` `Time Series` `RAG` `FastAPI` `Streamlit`
-
-→ [View Repository](https://github.com/Mafnan12/PricePulsePK)
-
----
-
-## Engineering Focus
-
-**AI**
-`Machine Learning` · `Generative AI` · `LLMs` · `RAG` · `Agentic AI`
-
-**Systems**
-`Python` · `FastAPI` · `SQL` · `APIs` · `Docker`
-
-**AI Infrastructure**
-`Vector Databases` · `Embeddings` · `LangChain` · `Model Integration`
-
----
-
-## Currently Exploring
-
-* Designing reliable agentic systems
-* RAG architecture and evaluation
-* LLM tool use and orchestration
-* AI system observability
-* Production-oriented ML pipelines
-
----
-
-## Engineering Philosophy
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-mafnan1-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mafnan1)
+[![Email](https://img.shields.io/badge/Email-Get_in_touch-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:afnanazizktk5276@gmail.com)
 
 > **Don't just build the model. Build the system around it.**
 
-I care about understanding how data flows through a system, how components interact, where things fail, and how an AI application can become reliable enough to be useful.
+Most AI projects stop at a notebook. I focus on what comes after: how data flows in, how the model retrieves context and uses tools, how outputs are evaluated, and where the system breaks, so it becomes reliable enough to actually use.
 
 ---
 
-## Let's Connect
+## Featured Projects
 
-I'm interested in **AI engineering opportunities, challenging technical problems, and building useful AI systems.**
+### 🔎 [RootCauseForge](https://github.com/Mafnan12/rootcauseforge)
+**Agentic incident investigation for microservices**
 
-[LinkedIn](www.linkedin.com/in/mafnan1) · [GitHub](https://github.com/Mafnan12)
+Simulates production failures across a microservice environment and uses LLM agents to investigate them and trace the root cause. Service dependencies are modeled as a graph in Neo4j, so agents can reason about how a failure in one service spreads to others.
+
+- Fault injection to generate realistic incidents across services
+- Agents that query logs, metrics, and the dependency graph to form and test hypotheses
+- Produces a structured root-cause report for each incident
+<!-- Add one concrete result if you have it, e.g. "Correctly identified the root cause in X of Y simulated incidents" -->
+
+`Python` `LLM Agents` `Neo4j` `Observability`
+
+### 📈 [PricePulsePK](https://github.com/Mafnan12/PricePulsePK)
+**Commodity price intelligence for Pakistan**
+
+An end-to-end data and ML platform that collects commodity prices, forecasts trends, and answers questions about the market using retrieval over structured data and external sources.
+
+- Automated data collection pipeline for commodity prices
+- Time-series forecasting models for price trends
+- RAG layer for natural-language insights, served through FastAPI with a Streamlit dashboard
+<!-- Add: number of commodities/cities tracked, forecast accuracy (e.g. MAPE), or a live demo link -->
+
+`Python` `Time Series` `RAG` `FastAPI` `Streamlit`
+
+---
+
+## Tech Stack
+
+| Area | Tools |
+|---|---|
+| **AI / ML** | Machine Learning · LLMs · RAG · Agentic AI · Embeddings |
+| **Frameworks** | LangChain · FastAPI · Streamlit |
+| **Data** | SQL · Neo4j · Vector Databases |
+| **Engineering** | Python · Docker · REST APIs |
+
+---
+
+## Currently Focused On
+
+Building **reliable agentic systems**: better tool orchestration, evaluation methods for RAG and agents, and observability for AI applications in production.
+
+---
+
+📫 Open to **AI engineering roles** and interesting technical problems. The best way to reach me is [LinkedIn](https://www.linkedin.com/in/mafnan1) or [email](mailto:afnanazizktk5276@gmail.com).
